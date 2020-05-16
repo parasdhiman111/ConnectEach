@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:weightSum="1"
+
+    android:background="@color/primary">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+      android:layout_weight="0.6"
+        >
+
+        <ImageButton
+            android:paddingLeft="1dp"
+            android:paddingRight="5dp"
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/profile_logo"
+            android:background="@color/primary"
+            />
+
+        <EditText
+
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search"
+            android:background="@drawable/round_corners"
+            android:textColor="#ffffff"
+            android:textColorHint="#E6E5E5" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "0.4"
+        android:gravity = "end">
+
+
+
+        <ImageButton
+
+            android:id="@+id/messages1"
+            android:layout_width = "wrap_content"
+            android:layout_height = "match_parent"
+            android:src = "@drawable/baseline_chat_black_18dp"
+            android:background="@color/primary"
+            android:padding="5dp"
+            />
+        <ImageButton
+            android:id="@+id/logout1"
+            android:padding="5dp"
+            android:background="@color/primary"
+            android:layout_width = "wrap_content"
+            android:layout_height = "match_parent"
+            android:src = "@drawable/logout" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

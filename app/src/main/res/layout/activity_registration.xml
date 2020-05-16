@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activities.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:fontFamily="@font/montserrat"
+            android:id="@+id/etNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/etNewPassword"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/primary"
+                android:text="Sign up!"
+                android:fontFamily="@font/montserrat"
+
+                android:textColor="#FFFF" />
+
+
+            <Button
+                android:id="@+id/btnLoginScreen"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:text="Already a member?"
+
+                android:fontFamily="@font/montserrat"
+                android:textAllCaps="false"
+                android:textColor="@color/primary" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

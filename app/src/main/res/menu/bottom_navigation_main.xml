@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_black_18dp"
+        android:fontFamily="@font/montserrat"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_connections"
+        android:icon="@drawable/baseline_people_black_18dp"
+        android:fontFamily="@font/montserrat"
+        android:title="Connections" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/baseline_notifications_black_18dp"
+        android:fontFamily="@font/montserrat"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_person_black_18dp"
+        android:fontFamily="@font/montserrat"
+        android:title="Profile" />
+
+
+
+</menu>

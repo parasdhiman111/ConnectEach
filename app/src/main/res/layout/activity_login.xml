@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo" />
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="376dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:hint="E-mail"
+            android:fontFamily="@font/montserrat"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:fontFamily="@font/montserrat"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@color/primary"
+                android:text="Login"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#FFFF" />
+
+            <Button
+                android:id="@+id/btnRegistrationScreen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:text="New Member? Signup"
+                android:fontFamily="@font/montserrat"
+                android:textAllCaps="false"
+                android:textColor="@color/primary" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnForgetPassword"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@null"
+            android:text="I forgot password"
+            android:fontFamily="@font/montserrat"
+            android:textAllCaps="false"
+            android:textColor="@color/primary" />
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_margin="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
